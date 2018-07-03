@@ -1,0 +1,17 @@
+server:
+  port: 8888
+
+spring:
+  thymeleaf:
+    encoding: UTF-8
+    cache: false
+    mode: HTML5
+  datasource:
+    name: test
+    url: jdbc:mysql://localhost:3306/blog
+    username: root
+    password: 123456
+  jpa:
+    show-sql: true
+    hibernate:
+      ddl-auto: create-drop

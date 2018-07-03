@@ -1,0 +1,14 @@
+server:
+  port: 8888
+
+spring:
+  data:
+    elasticsearch:
+      cluster-nodes: 127.0.0.1:9300
+  datasource:
+    name: test
+    url: jdbc:mysql://localhost:3306/test
+    username: root
+    password: 123456
+  jpa:
+    show-sql: true
